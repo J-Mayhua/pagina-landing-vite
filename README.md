@@ -2,7 +2,6 @@
 
 Landing page moderna y responsive construida con React, Tailwind CSS y Vite. Incluye formulario de contacto funcional conectado a una API real (Web3Forms), diseño mobile-first y componentes reutilizables.
 
-
 ## Tecnologías
 
 - [React](https://react.dev/) — librería para construir interfaces de usuario basadas en componentes.
@@ -21,26 +20,27 @@ Landing page moderna y responsive construida con React, Tailwind CSS y Vite. Inc
 
 Clona el repositorio:
 
-\`\`\`bash
+```bash
 git clone https://github.com/J-Mayhua/pagina-landing-vite.git
 cd pagina-landing-vite
-\`\`\`
+```
 
 Instala las dependencias:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 Crea un archivo `.env.local` en la raíz del proyecto (ver sección de Variables de entorno).
 
 Levanta el servidor de desarrollo:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Abre `http://localhost:5173` en tu navegador.
+
 ## Variables de entorno
 
 Este proyecto usa [Web3Forms](https://web3forms.com/) para el envío del formulario de contacto. Necesitas tu propia Access Key gratuita:
@@ -48,21 +48,21 @@ Este proyecto usa [Web3Forms](https://web3forms.com/) para el envío del formula
 1. Regístrate en [web3forms.com](https://web3forms.com/) y obtén tu Access Key.
 2. Crea un archivo `.env.local` en la raíz del proyecto con:
 
-\`\`\`
+```
 VITE_WEB3FORMS_KEY=tu_access_key_aqui
-\`\`\`
-
+```
 
 ## Estructura del proyecto
 
-\`\`\`
+```
 src/
-├── components/    # Componentes reutilizables (Navbar, FeatureCard)
-├── sections/      # Secciones de la landing (Hero, Features, Contact, Footer)
-├── data/          # Contenido separado de la UI
+├── components/   # Componentes reutilizables (Navbar, FeatureCard)
+├── sections/     # Secciones de la landing (Hero, Features, Contact, Footer)
+├── data/         # Contenido separado de la UI
 ├── App.jsx
 └── main.jsx
-\`\`\`
+```
+
 ## Autor
 
-Desarrollado por **[Tu Nombre]** — [LinkedIn](tu-link) · [GitHub](https://github.com/J-Mayhua)
+Desarrollado por **José Adolfo Mayhua Palomino** — [LinkedIn](https://www.linkedin.com/in/jose-adolfo-mayhua-palomino-184a79237/) · [GitHub](https://github.com/J-Mayhua)
